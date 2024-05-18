@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'CatComic';
+    src: url(Cat\ Comic.ttf);
+    font-family: 'AnimeAce';
+    src: url(animeace2_bld.otf);
+}
+
+body {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url('work\ bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#header {
+    width: 100%;
+    height: 60px;
+    padding: 10px 0px;
+    background: #ffffff;
+    box-shadow: 2px 3px 5px #ffffff;
+}
+
+.header {
+    width: 1200px;
+    margin: auto;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-nav {
+    float: right;
+}
+
+.header-logo img {
+    float: left;
+    width: auto;
+    height: 70px;
+}
+
+.header-nav ul li {
+    float: left;
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 20px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #6475fd;
+}
+
+.header-nav ul li a:hover {
+    color: red;
+}
+
+header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'CatComic';
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'AnimeAce';
+}
+
+.item {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.item a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.jersey-10-charted-regular {
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+#footer {
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons li a:hover {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
